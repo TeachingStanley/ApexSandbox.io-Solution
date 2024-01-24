@@ -4,6 +4,7 @@ public static Integer arraySum(List<Integer> numbers) {
     if(numbers != null) {
         for(List<Integer> num : numbers){
             sum += num;
+            return num;
         }
     } else {
         return null;
