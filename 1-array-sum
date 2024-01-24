@@ -1,8 +1,10 @@
 public static Integer arraySum(List<Integer> numbers) {
     //code here
+    Integer sum = 0;
     if(numbers != null) {
-        numbers.sum();
-        return numbers;
+        for(List<Integer> num : numbers){
+            sum += num;
+        }
     } else {
         return null;
     }
