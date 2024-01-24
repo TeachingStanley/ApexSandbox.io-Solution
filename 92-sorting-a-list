@@ -1,8 +1,8 @@
 public List<String> getNamesInAscOrder(List<String> accountNames)
 {
     //code here
-    if(accountNames != null){
-        accountNames.Sort();
+    if(accountNames.size > 0){
+    accountNames.Sort();
     return accountNames;
     }
     
