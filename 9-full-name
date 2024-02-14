@@ -1,5 +1,4 @@
 public String formatName(String firstName, String lastName) {
     //code here
-    Name = firstName' '+ lastName;
-    system.debug(Name);
+    return firstName' '+ lastName;
 }
